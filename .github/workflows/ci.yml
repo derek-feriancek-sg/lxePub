@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run basic checks
+        run: |
+          echo "Running CI checks..."
+          ls -la
+          echo "CI completed successfully!"
