@@ -47,5 +47,7 @@ global_var = None
 
 # Trailing whitespace and inconsistent indentation (spaces/tabs mix)
 def function_with_whitespace_issues():   
-	print("mixed tabs and spaces")    
+    print("mixed tabs and spaces")    
     return True  
+
+# hello world derek
