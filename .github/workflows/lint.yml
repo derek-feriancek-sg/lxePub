@@ -1,2 +1,0 @@
-# This workflow has been consolidated into ci.yml
-# Linting now runs as a prerequisite job that blocks CI tests if it fails
