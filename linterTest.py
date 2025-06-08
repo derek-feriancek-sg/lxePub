@@ -1,4 +1,6 @@
-import os,sys; import time # ruff will complain about multiple imports and unused imports
+import os
+import sys
+import time  # ruff will complain about unused imports
 import   json    # black will fix spacing
 
 def   function_with_bad_spacing( x,y ,z):  # black will fix spacing, ruff may complain about naming
@@ -46,6 +48,6 @@ def function_with_unreachable_code():
 global_var = None
 
 # Trailing whitespace and inconsistent indentation (spaces/tabs mix)
-def function_with_whitespace_issues():   
-	print("mixed tabs and spaces")    
-    return True  
+def function_with_whitespace_issues():
+    print("mixed tabs and spaces")
+    return True
