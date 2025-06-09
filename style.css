@@ -27,3 +27,9 @@ body {
     color: #ecf0f1;
     font-size: 16px;
 }
+
+.credits {
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+}
